@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <!-- Bootstrap 6 Alpha CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe"
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h2 id="demo">Lorem ipsum dolor sit amet.</h2>
+
+    <button type="button" data-colorrr="red" data-location="center">color1</button>
+    <button type="button" data-colorrr="blue" data-location="left">color2</button>
+    <button type="button" data-colorrr="yellow" data-location="right">color3</button>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-10 mx-auto">
+
+                <h3 class="text-center mb-4">To Do List</h3>
+
+                <form id="myForm">
+                    <input id="works" type="text"
+                        class="form-control my-4"
+                        placeholder="Enter Your Works">
+
+                    <button type="submit" class="btn-solid theme-accent w-100">
+                        Enter
+                    </button>
+                </form>
+
+                <ul id="result" class="list-group mt-4"></ul>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap 6 Alpha JavaScript -->
+    <script type="module"
+        src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Eigene JavaScript-Datei -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
